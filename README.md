@@ -75,3 +75,5 @@ $ pip (or pip3) install -r requirements.txt
 && Customize indicators.py with ones' own phrases, domains, properties, and tld prefixes they are concerned about.
 && Please customize the weights to your liking
 ```
+
+![picture alt](https://i.imgur.com/V9evk9u.jpg "Setting Sail for Fail")
