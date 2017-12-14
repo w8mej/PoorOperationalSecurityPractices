@@ -38,7 +38,6 @@
 
 ## TODO
 * Add additional techniques from Red Team playbooks and IR playbooks on the funny ways hackers, crackers, and red teamers have been caught
-* Add Docker files
 * Add Vagrant files
 * Add Chef files
 
