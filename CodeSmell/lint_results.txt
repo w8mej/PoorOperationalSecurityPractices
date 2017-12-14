@@ -1,0 +1,154 @@
+************* Module pooropssec
+C: 78, 0: Line too long (112/100) (line-too-long)
+C:164, 0: Line too long (120/100) (line-too-long)
+C:166, 0: Line too long (115/100) (line-too-long)
+C:190, 0: Line too long (119/100) (line-too-long)
+W:101, 0: Anomalous backslash in string: '\W'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+E: 15, 0: No name 'ratio' in module 'Levenshtein' (no-name-in-module)
+W: 23, 0: String statement has no effect (pointless-string-statement)
+W: 44,11: Catching too general exception Exception (broad-except)
+W: 47, 8: return statement in finally block may swallow exception (lost-exception)
+W: 44,24: Unused variable 'exc' (unused-variable)
+W: 50,18: Unused argument 'tweet_content' (unused-argument)
+W: 64,16: Unused argument 'stix_content' (unused-argument)
+E: 88,11: phishy.endswith is not callable (not-callable)
+E: 91, 7: phishy.startswith is not callable (not-callable)
+W: 98,11: Catching too general exception Exception (broad-except)
+E:115,23: Module 'entropy' has no 'shannon_entropy' member (no-member)
+E:121,15: ratio is not callable (not-callable)
+W:124, 4: String statement has no effect (pointless-string-statement)
+W:125, 4: String statement has no effect (pointless-string-statement)
+W: 98,24: Unused variable 'exc' (unused-variable)
+W:110,14: Unused variable 'val' (unused-variable)
+R: 77, 0: Too many branches (13/12) (too-many-branches)
+W:138,24: Unused argument 'handle_symantec' (unused-argument)
+W:150,23: Unused argument 'pan_content' (unused-argument)
+W:163,15: Unused argument 'regex_pattern' (unused-argument)
+W:187, 4: String statement has no effect (pointless-string-statement)
+W:190,20: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+E:209,35: _smelly_domain.lower is not callable (not-callable)
+W:194,22: Unused argument 'context' (unused-argument)
+C: 19, 0: standard import "import logging" comes before "import certstream" (wrong-import-order)
+
+
+Report
+======
+88 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |9      |9          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    Levenshtein (pooropssec)
+    certstream (pooropssec)
+    entropy (pooropssec)
+    indicators (pooropssec)
+    requests (pooropssec)
+    tld (pooropssec)
+    tqdm (pooropssec)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |86     |39.09 |87       |-1.00      |
++----------+-------+------+---------+-----------+
+|docstring |69     |31.36 |68       |+1.00      |
++----------+-------+------+---------+-----------+
+|comment   |15     |6.82  |15       |=          |
++----------+-------+------+---------+-----------+
+|empty     |50     |22.73 |51       |-1.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |5      |8        |-3.00      |
++-----------+-------+---------+-----------+
+|refactor   |1      |1        |=          |
++-----------+-------+---------+-----------+
+|warning    |18     |18       |=          |
++-----------+-------+---------+-----------+
+|error      |6      |6        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------------+------------+
+|message id                    |occurrences |
++==============================+============+
+|unused-argument               |6           |
++------------------------------+------------+
+|pointless-string-statement    |4           |
++------------------------------+------------+
+|not-callable                  |4           |
++------------------------------+------------+
+|line-too-long                 |4           |
++------------------------------+------------+
+|unused-variable               |3           |
++------------------------------+------------+
+|broad-except                  |2           |
++------------------------------+------------+
+|wrong-import-order            |1           |
++------------------------------+------------+
+|too-many-branches             |1           |
++------------------------------+------------+
+|no-name-in-module             |1           |
++------------------------------+------------+
+|no-member                     |1           |
++------------------------------+------------+
+|lost-exception                |1           |
++------------------------------+------------+
+|logging-format-interpolation  |1           |
++------------------------------+------------+
+|anomalous-backslash-in-string |1           |
++------------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 3.86/10 (previous run: 3.52/10, +0.34)
+

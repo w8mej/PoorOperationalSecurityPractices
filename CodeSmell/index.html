@@ -1,0 +1,743 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">52%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>6997</td>
+                <td>3390</td>
+                <td>438</td>
+                
+                <td class="right" data-ratio="3607 6997">52%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="_root_bin_PoorOpsSec_indicators_py.html">/root/bin/PoorOpsSec/indicators.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_root_bin_PoorOpsSec_pooropssec_py.html">/root/bin/PoorOpsSec/pooropssec.py</a></td>
+                <td>84</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="74 84">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_certstream___init___py.html">/usr/local/lib/python2.7/dist-packages/certstream/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_certstream_core_py.html">/usr/local/lib/python2.7/dist-packages/certstream/core.py</a></td>
+                <td>43</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="34 43">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests___init___py.html">/usr/local/lib/python2.7/dist-packages/requests/__init__.py</a></td>
+                <td>30</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 30">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_adapters_py.html">/usr/local/lib/python2.7/dist-packages/requests/adapters.py</a></td>
+                <td>205</td>
+                <td>75</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="130 205">63%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_api_py.html">/usr/local/lib/python2.7/dist-packages/requests/api.py</a></td>
+                <td>22</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 22">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_auth_py.html">/usr/local/lib/python2.7/dist-packages/requests/auth.py</a></td>
+                <td>148</td>
+                <td>116</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="32 148">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_certs_py.html">/usr/local/lib/python2.7/dist-packages/requests/certs.py</a></td>
+                <td>9</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 9">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_compat_py.html">/usr/local/lib/python2.7/dist-packages/requests/compat.py</a></td>
+                <td>35</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 35">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_cookies_py.html">/usr/local/lib/python2.7/dist-packages/requests/cookies.py</a></td>
+                <td>236</td>
+                <td>132</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="104 236">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_exceptions_py.html">/usr/local/lib/python2.7/dist-packages/requests/exceptions.py</a></td>
+                <td>31</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 31">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_hooks_py.html">/usr/local/lib/python2.7/dist-packages/requests/hooks.py</a></td>
+                <td>15</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 15">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_models_py.html">/usr/local/lib/python2.7/dist-packages/requests/models.py</a></td>
+                <td>421</td>
+                <td>197</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="224 421">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages___init___py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/__init__.py</a></td>
+                <td>12</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 12">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_chardet___init___py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/chardet/__init__.py</a></td>
+                <td>11</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 11">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3___init___py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/__init__.py</a></td>
+                <td>38</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 38">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3__collections_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/_collections.py</a></td>
+                <td>178</td>
+                <td>81</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="97 178">54%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_connection_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connection.py</a></td>
+                <td>154</td>
+                <td>51</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="103 154">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_connectionpool_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py</a></td>
+                <td>305</td>
+                <td>108</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="197 305">65%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_contrib___init___py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/contrib/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_contrib_pyopenssl_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/contrib/pyopenssl.py</a></td>
+                <td>196</td>
+                <td>192</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 196">2%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_contrib_socks_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/contrib/socks.py</a></td>
+                <td>63</td>
+                <td>39</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 63">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_exceptions_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/exceptions.py</a></td>
+                <td>84</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="72 84">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_fields_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/fields.py</a></td>
+                <td>69</td>
+                <td>56</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 69">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_filepost_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/filepost.py</a></td>
+                <td>39</td>
+                <td>27</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 39">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_packages___init___py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/packages/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_packages_ordered_dict_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/packages/ordered_dict.py</a></td>
+                <td>155</td>
+                <td>89</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="66 155">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_packages_six_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/packages/six.py</a></td>
+                <td>444</td>
+                <td>199</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="245 444">55%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_packages_ssl_match_hostname___init___py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py</a></td>
+                <td>8</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 8">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_poolmanager_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/poolmanager.py</a></td>
+                <td>143</td>
+                <td>62</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="81 143">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_request_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/request.py</a></td>
+                <td>41</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 41">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_response_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/response.py</a></td>
+                <td>267</td>
+                <td>92</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="175 267">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_util___init___py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/__init__.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_util_connection_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/connection.py</a></td>
+                <td>78</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 78">63%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_util_request_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/request.py</a></td>
+                <td>24</td>
+                <td>19</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 24">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_util_response_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/response.py</a></td>
+                <td>28</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 28">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_util_retry_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/retry.py</a></td>
+                <td>100</td>
+                <td>37</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="63 100">63%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_util_ssl__py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py</a></td>
+                <td>124</td>
+                <td>66</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 124">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_util_timeout_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/timeout.py</a></td>
+                <td>58</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="40 58">69%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_packages_urllib3_util_url_py.html">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/url.py</a></td>
+                <td>95</td>
+                <td>43</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="52 95">55%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_sessions_py.html">/usr/local/lib/python2.7/dist-packages/requests/sessions.py</a></td>
+                <td>260</td>
+                <td>55</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="205 260">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_status_codes_py.html">/usr/local/lib/python2.7/dist-packages/requests/status_codes.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 8">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_structures_py.html">/usr/local/lib/python2.7/dist-packages/requests/structures.py</a></td>
+                <td>40</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="31 40">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_requests_utils_py.html">/usr/local/lib/python2.7/dist-packages/requests/utils.py</a></td>
+                <td>349</td>
+                <td>220</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="129 349">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_six_py.html">/usr/local/lib/python2.7/dist-packages/six.py</a></td>
+                <td>450</td>
+                <td>426</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 450">5%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tld___init___py.html">/usr/local/lib/python2.7/dist-packages/tld/__init__.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 8">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tld_conf_py.html">/usr/local/lib/python2.7/dist-packages/tld/conf.py</a></td>
+                <td>20</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 20">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tld_defaults_py.html">/usr/local/lib/python2.7/dist-packages/tld/defaults.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tld_exceptions_py.html">/usr/local/lib/python2.7/dist-packages/tld/exceptions.py</a></td>
+                <td>18</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 18">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tld_helpers_py.html">/usr/local/lib/python2.7/dist-packages/tld/helpers.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 11">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tld_utils_py.html">/usr/local/lib/python2.7/dist-packages/tld/utils.py</a></td>
+                <td>102</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 102">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tqdm___init___py.html">/usr/local/lib/python2.7/dist-packages/tqdm/__init__.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tqdm__main_py.html">/usr/local/lib/python2.7/dist-packages/tqdm/_main.py</a></td>
+                <td>62</td>
+                <td>51</td>
+                <td>31</td>
+                
+                <td class="right" data-ratio="11 62">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tqdm__tqdm_py.html">/usr/local/lib/python2.7/dist-packages/tqdm/_tqdm.py</a></td>
+                <td>525</td>
+                <td>288</td>
+                <td>19</td>
+                
+                <td class="right" data-ratio="237 525">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tqdm__tqdm_gui_py.html">/usr/local/lib/python2.7/dist-packages/tqdm/_tqdm_gui.py</a></td>
+                <td>8</td>
+                <td>1</td>
+                <td>203</td>
+                
+                <td class="right" data-ratio="7 8">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tqdm__tqdm_pandas_py.html">/usr/local/lib/python2.7/dist-packages/tqdm/_tqdm_pandas.py</a></td>
+                <td>10</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 10">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tqdm__utils_py.html">/usr/local/lib/python2.7/dist-packages/tqdm/_utils.py</a></td>
+                <td>14</td>
+                <td>2</td>
+                <td>149</td>
+                
+                <td class="right" data-ratio="12 14">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_tqdm__version_py.html">/usr/local/lib/python2.7/dist-packages/tqdm/_version.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>28</td>
+                
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket___init___py.html">/usr/local/lib/python2.7/dist-packages/websocket/__init__.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__abnf_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_abnf.py</a></td>
+                <td>230</td>
+                <td>71</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="159 230">69%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__app_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_app.py</a></td>
+                <td>126</td>
+                <td>57</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="69 126">55%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__cookiejar_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_cookiejar.py</a></td>
+                <td>42</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 42">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__core_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_core.py</a></td>
+                <td>182</td>
+                <td>110</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="72 182">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__exceptions_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_exceptions.py</a></td>
+                <td>16</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 16">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__handshake_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_handshake.py</a></td>
+                <td>100</td>
+                <td>19</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="81 100">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__http_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_http.py</a></td>
+                <td>149</td>
+                <td>52</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="97 149">65%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__logging_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_logging.py</a></td>
+                <td>28</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 28">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__socket_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_socket.py</a></td>
+                <td>68</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 68">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__ssl_compat_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_ssl_compat.py</a></td>
+                <td>17</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 17">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__url_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_url.py</a></td>
+                <td>77</td>
+                <td>28</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 77">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_usr_local_lib_python2_7_dist-packages_websocket__utils_py.html">/usr/local/lib/python2.7/dist-packages/websocket/_utils.py</a></td>
+                <td>36</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 36">78%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.2</a>,
+            created at 2017-12-13 18:45
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

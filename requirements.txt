@@ -1,0 +1,7 @@
+tld==0.7.9
+tqdm==4.19.4
+entropy==0.10
+setuptools==38.2.4
+requests==2.18.1
+certstream==1.8
+python_Levenshtein==0.12.0
