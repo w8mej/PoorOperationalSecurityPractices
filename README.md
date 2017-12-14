@@ -69,9 +69,6 @@ Organizations may improve their information security posture by rethinking it
   Deceptive tradecraft should be fun and light, not stern and stressful.  It is cool to be cute.  
 
 
-### `choo/html/raw`
-Exposes [bel/raw](https://github.com/shama/bel#unescaping) helper for rendering raw HTML content.
-
 ## Installation
 ```sh
 $ pip (or pip3) install -r requirements.txt
