@@ -23,7 +23,7 @@
 </div>
 
 <div align="center">
-  <sub>The little script that could.  Built with creativity, observations, and facepalm-inducing moments
+  <sub>The little script that could and would.  Built with creativity, observations, and facepalm-inducing moments
   <a href="https://securesql.info">John Menerick</a>
   </a>
 </div>
