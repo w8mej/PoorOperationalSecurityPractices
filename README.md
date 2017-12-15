@@ -31,7 +31,7 @@
 ![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Never Alone")
 
 ## Features
-- __Certificate Logs:__ finding those who willing to create public ssl / tls certificates without understanding the consequences
+- __Certificate Logs:__ finding those who are creating public ssl / tls certificates without understanding the consequences
 - __Multiple output formats:__ STIX, Snort, Suricata, PAN, Syslog, Twitter, etc...
 - __very cute:__ all about the fail train!
 
