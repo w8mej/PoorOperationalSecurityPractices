@@ -68,10 +68,28 @@ Organizations may improve their information security posture by rethinking it
 
 
 ## Installation
+There are a multitude of options
+Optional
+Customize the weights in indicators.py to your risk profile.  
+
+Source
 ```sh
-$ pip (or pip3) install -r requirements.txt
-&& Customize indicators.py with ones' own phrases, domains, properties, and tld prefixes they are concerned about.
-&& Please customize the weights to your liking
+$ pip install -r requirements.txt
+$ python ./pooropssec.py
 ```
+
+Vagrant
+* Adjust the private ssh key to one of your liking.  Otherwise user vagrant / password vagrant will suffice.
+```sh
+$ vagrant init pwn/PoorOperationalSec
+$ vagrant up
+```
+
+Docker
+* Adjust the private ssh key to one of your liking.  Otherwise user vagrant / password vagrant will suffice.
+```sh
+$ docker pull
+```
+
 
 ![picture alt](https://i.imgur.com/V9evk9u.jpg "Setting Sail for Fail")
